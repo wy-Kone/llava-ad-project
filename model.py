@@ -1,3 +1,6 @@
+import os
+os.environ['HF_HOME'] = r'E:\学习-模型-数据集\llava_ad_project'
+os.environ['TRANSFORMERS_OFFLINE'] = '1'
 import torch
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 
